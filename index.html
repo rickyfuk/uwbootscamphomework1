@@ -3,16 +3,24 @@
 
 <head>
     <meta charset="UTF-8" />
-    <!-- change the title from wesite to Horiseon Social Solution Services-->
-    <title>Horiseon Social Solution Services</title>
-    <!-- this is the external CSS link // the CSS file store in assets folder-->
+
+    <!-- This is the external CSS link // the CSS file store in assets folder-->
     <link rel="stylesheet" href="./assets/css/style.css">
+    <!-- Amendment:
+         1. Change the title from "wesite" to "Horiseon Social Solution Services"-->
+    <title>Horiseon Social Solution Services</title>
 </head>
 
 <body>
-    <!-- Change <div class=header> to <header> -->
+    <!--In the header section, the user can reach the following 3 sections by clicking their name 
+        1.Search Engine Optimization
+        2.Online Reputation Management
+        3.Social Media Marketing
+        Amendment: 
+        1.Change <div class="header"> to <header>
+        2.Replace span by style for changing the white color of "seo" -->
     <header>
-        <h1>Hori<span class="seo">seo</span>n</h1>
+        <h1>Hori</h1><h1 Style= "color: #d9dcd6;">seo</h1><h1>n</h1>
         <div>
             <ul>
                 <li>
@@ -27,9 +35,12 @@
             </ul>
         </div>
     </header>
+    <!--In the hero-image section, the image "digital-marketing-meeting" will be shwon under the header -->
     <div class="hero"></div>
+    
     <div class="content">
-        <div class="search-engine-optimization">
+        <!-- add id = search-engine-optimization to make the href in header work-->
+        <div id= "search-engine-optimization" class="search-engine-optimization">
             <img src="./assets/images/search-engine-optimization.jpg" class="float-left" />
             <h2>Search Engine Optimization</h2>
             <p>
