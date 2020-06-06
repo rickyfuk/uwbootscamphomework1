@@ -17,13 +17,15 @@ This project is to refactor the existing code for Horiseon website in order to m
 
 ## Action taken
 List of Changes
+* Change the title from website to Horiseon Social Solution Services for easier to locate the site by search engine
+* Change some of the non-semetic code to semetic one include:
+  1. Header
+  
 * 
-* Awesome feature 2
-* Awesome feature 3
 
 List of other additional action
 * Add a Readme
-* Awesome feature 2
+* Add description for code
 * Awesome feature 3
 
 ## Status
