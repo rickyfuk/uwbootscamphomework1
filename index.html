@@ -36,14 +36,16 @@
             </ul>
         </div>
     </header>
+    
     <!--In the hero-image section, the image "digital-marketing-meeting" will be shwon under the header -->
     <div class="hero"></div>
+    
     <!--In the main section, following 3 sections details will be shown individually with their description
         1.Search Engine Optimization
         2.Online Reputation Management
         3.Social Media Marketing
         Amendment: 
-        1.Change <div class="content"> into <section>
+        1.Change <div class="content"> into <section> for easier understand the layout
         2.Add "id = search-engine-optimization" to enable the href from header  
         3. The following 3 class have been removed due to "div" changed into "article"
            a. "class="search-engine-optimization""
@@ -74,30 +76,43 @@
             </p>
         </article>
     </section>
-
-    <div class="benefits">
-        <div class="benefit-lead">
+    
+    <!--In the aside section, following 3 items details will be shown in a same box
+        1.Lead generation
+        2.Brand Awareness
+        3.Cost Managment
+        Amendment: 
+        1.Change <div class="benefit"> into <aside> for easier understand the layout 
+        2. The following 3 class have combined into "benefit"
+           a. "class="benefit-lead""
+           b. "class="benefit-awareness""
+           c. "class="benefit-cost""
+        4. Add "alt" element for every image
+    -->
+    <aside>
+        <div class="benefit">
             <h3>Lead Generation</h3>
-            <img src="./assets/images/lead-generation.png" />
+            <img src="./assets/images/lead-generation.png" alt= "lead-generation" />
             <p>
                 Inbound strategies for lead generation require less work for your business, bringing customers directly to your website.
             </p>
         </div>
-        <div class="benefit-brand">
+        <div class="benefit">
             <h3>Brand Awareness</h3>
-            <img src="./assets/images/brand-awareness.png" />
+            <img src="./assets/images/brand-awareness.png" alt= "brand-awareness" />
             <p>
                 Users find your business through paid and organic searches, increasing the search ranking and visibility for your business.
             </p>
         </div>
-        <div class="benefit-cost">
+        <div class="benefit">
             <h3>Cost Management</h3>
-            <img src="./assets/images/cost-management.png"></img>
+            <img src="./assets/images/cost-management.png" alt= "cost-management"></img>
             <p>
                 As the search ranking for your business increases, your advertising costs decrease, and you no longer need to advertise your page.
             </p>
         </div>
-    </div>
+    <aside>
+
     <div class="footer">
         <h2>Made with ❤️️ by Horiseon</h2>
         <p>
