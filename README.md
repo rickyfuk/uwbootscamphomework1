@@ -23,14 +23,17 @@ This project is to refactor the existing code for Horiseon website to meet the f
 List of Changes
 * Change the title from website to Horiseon Social Solution Services for easier to locate the site by search engine
 * Change some of the non-semetic code to semetic one include:
-  1. Header
-
+  1. 'div class="header"' to 'header'
+  2. Replace "span" by "style" for changing the white color of "seo"
+  3. Change 'div class="content"' into 'section'
 * 
 
 List of other additional action
-* Add a Readme
+* Add a ReadMe
 * Add description for code
-* Awesome feature 3
+* Fixed click and navigate function for the "Search Engine Optimation"
+* Simplfy and retitle some of the CSS section
+* 
 
 ## Status
 Project is: _in progress_, _finished_, _no longer continue_ and why?
