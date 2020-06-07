@@ -17,7 +17,7 @@ This project is to refactor the existing code for Horiseon website to meet the f
 3. Add description to make the code more easy to read for the customer and the further developers.
 
 ## Screenshots
-![Example screenshot](./images/screenshot.png)
+![screenshot](https://github.com/rickyfuk/uwbootscamphomework1/blob/master/assets/images/screenshot.PNG?raw=true)
 
 ## Action taken
 List of Changes
