@@ -13,8 +13,9 @@
 This project is to refactor the existing code for Horiseon website to meet the following objective:
 
 1. Meet the accessibility requirment
-2. Reduce the reduntant code
-3. Add description to make the code more easy to read for the customer and the further developers.
+2. Reduce or remove the reduntant Html and CSS code
+3. Add description to make the code more easy to read for the customer
+4. Put in the amendment details and the better understanding for further developers.
 
 ## Screenshots
 ![screenshot](https://github.com/rickyfuk/uwbootscamphomework1/blob/master/assets/images/screenshot.PNG?raw=true)
@@ -26,14 +27,15 @@ List of Changes
   1. 'div class="header"' to 'header'
   2. Replace "span" by "style" for changing the white color of "seo"
   3. Change 'div class="content"' into 'section'
+  4. Change 'div class="benefit"' into 'aside'
 * 
 
 List of other additional action
 * Add a ReadMe
-* Add description for code
+* Add description for every single part of Html and CSS code
 * Fixed click and navigate function for the "Search Engine Optimation"
 * Simplfy and retitle some of the CSS section
-* 
+* Combine the CSS elements where the content are identical
 
 ## Status
 Project is: _in progress_, _finished_, _no longer continue_ and why?
