@@ -28,7 +28,7 @@ List of Changes
   2. Replace "span" by "style" for changing the white color of "seo"
   3. Change 'div class="content"' into 'section'
   4. Change 'div class="benefit"' into 'aside'
-* 
+  5. Change 'div class="footer"' into 'footer'
 
 List of other additional action
 * Add a ReadMe
@@ -38,7 +38,7 @@ List of other additional action
 * Combine the CSS elements where the content are identical
 
 ## Status
-Project is: _in progress_, _finished_, _no longer continue_ and why?
+Project is: finished
 
 
 ## Create By

@@ -9,7 +9,9 @@ body {
     background-color: #d9dcd6;
 }
 /* Header setting
-   Amendment:
+  
+
+   Amendment (For developers reference): 
    1.change all ".header" to "header" 
    2.remove "header h1 .seo { color: #d9dcd6;}" as span has been replaced by style
    */
@@ -63,7 +65,8 @@ p {
     background-position: center;
 }
 /* Main section setting 
-   Amandment:
+   
+   Amendment (For developers reference):
    1. change ".content" to "section" to align with the html code (remove div)
    2. combine ".search-engine-optimization", ".online-reputation-management" and ".social-media-marketing" into one element - "article"
    3. combine ".search-engine-optimization img", ".online-reputation-management img" and ".social-media-marketing img" into one element - "article img"
@@ -105,12 +108,14 @@ article h2 {
 }
 
 /* Aside section setting 
-   Amandment:
+   
+   Amendment (For developers reference):
    1. change ".benefit" to "aside" to align with the html code (remove div)
    2. combine ".benefit-lead", ".benefit-brand" and ".benefit-cost" into one element - ".benefit"
    3. combine ".benefit-lead img", ".benefit-brand img" and ".benefit-cost img" into one element - ".benefit img"
    4. combine ".benefit-lead h2", ".benefit-brand h2" and ".benefit-cost h2" into one element - ".benefit h2"
    */
+
 aside {
     margin-right: 20px;
     padding: 20px;
@@ -138,13 +143,20 @@ aside {
     max-width: 150px;
 }
 
-.footer {
+/* Footer section setting 
+   
+   Amendment (For developers reference):
+   1. change ".footer" to "footer" to align with the html code (remove div)
+   2. change ".footer h2" to footer h2 for the coding alignment 
+   */
+
+footer {
     padding: 30px;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
 }
 
-.footer h2 {
+footer h2 {
     font-size: 20px;
 }
