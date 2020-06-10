@@ -4,9 +4,16 @@
     padding: 0;
     margin: 0;
 }
+/* Body setting - the general setting for the background
 
-body {
+   Amendment (For developers reference):
+   1.add min-width and overflow to avoid the content mess around due to the box shrink
+   */
+
+   body {
     background-color: #d9dcd6;
+    overflow: auto;
+    min-width:1024px
 }
 /* Header setting
   
@@ -21,7 +28,7 @@ header {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
     color: #ffffff;
-} 
+   } 
 
 header h1 {
     display: inline-block;
@@ -67,6 +74,8 @@ p {
     background-image: url("../images/digital-marketing-meeting.jpg");
     background-size: cover;
     background-position: center;
+    min-width: 1024px;
+
 }
 /* Main section setting 
    
@@ -91,6 +100,7 @@ section {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
+
 }
 
 article {
