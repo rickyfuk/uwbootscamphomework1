@@ -17,6 +17,11 @@ This project is to refactor the existing code for Horiseon website to meet the f
 3. Add description to make the code more easy to read for the customer
 4. Put in the amendment details and the better understanding for further developers.
 
+The result is expected to eliminate the unneccessary HTML and CSS code and enhance the reader experience for the site.
+
+Please visit https://rickyfuk.github.io/uwbootscamphomework1/
+for the refactored site.
+
 ## Screenshots
 ![screenshot](https://github.com/rickyfuk/uwbootscamphomework1/blob/master/assets/images/screenshot.PNG?raw=true)
 
